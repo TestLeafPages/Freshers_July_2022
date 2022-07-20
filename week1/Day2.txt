@@ -1,0 +1,58 @@
+
+Class:
+A class is a group of object which  hava common properties,
+its template or blueprint from which objects are created
+A class in java can contain fields,methods,constructor,interfae,block of code
+
+nameing convention followed while creating a class
+ClassName--- should start with uppercase
+          Pascal notation ---->PrimeNumber
+methodName-- should start with lowercasae and followed by uppercase
+             such as   firstName()
+ variableName-- should start with lowercasae and followed by uppercase
+             such as   lastName()
+ 
+
+syntax for object;
+ClassName object=new Constructor();
+
+Object:
+An Object ia s Real time entity.
+An Instance of a class is called object
+
+public static void main(String[] args) {
+public--Public is AccessMofiers, it can Access from anywhere of the class
+static -- static is a keyword ,it can excute without initializing without     object
+void-- void is return type of the method,it doen't retun anything.
+main-- main  method is JVM entry point
+String[] args-- we can pass the arugument while running the program
+
+
+Datatypes:
+A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
+
+They are two data types in java..
+1.Premitive datatypes
+2.Non-Pewmitive data types
+
+Premitive datatypes:
+1.int
+2.short
+3.long
+4.float
+5.double
+6.byte
+7.boolean
+8.char
+
+Non-Premitive data types:
+String ,Arrays,Interface
+
+String: Sequence of character is caslled String
+
+
+
+
+
+
+
