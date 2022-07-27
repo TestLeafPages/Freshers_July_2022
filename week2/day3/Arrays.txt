@@ -1,0 +1,115 @@
+class
+object
+methods
+datatypes
+AccessModifiers
+
+
+
+Controll Statements
+1.Decision Making statement
+    1.if statement
+    2.if -else statement
+2.Looping Statement
+    1.for
+    2.while
+3.Jumping Statement
+    1.continue
+    2.break
+
+Looping Statements:
+syntax for foorloop;
+
+  for(Initialization; condition; increment/decrement){
+  -------------
+}
+
+
+1.initialization
+2.condition
+3.excution
+4.increment/decrement
+
+While loop syntax:
+While(condition){
+------------
+}
+
+
+  1.if statement
+if(condition){
+---------}
+
+    2.if -else statement
+ if(condition){
+-------}else{
+-------------
+}
+
+1
+2
+three
+4
+5
+
+ 3.Jumping Statement
+    1.continue  -- stop the current iteration and continue with next iteration
+    2.break  -- it will come out of the loop
+
+Arrays;
+Array is a collections  similar datatype 
+Array is a container to store the multiple data of same data types
+
+Array Property:
+1.max limitn for Array has to declared  at the starting
+2.we can not change the Array size at run time.
+3.Each data in the Array should have an index
+4.Index start with 0,
+
+int a=10;
+int b=20;
+int c=30;
+
+Types of Array in java:
+There are two types of array.
+1.Single Dimensional Array
+2.Multidimensional Array
+
+How to declare An Array:
+
+Array using litteral
+int[] a={10,20,30,40,50};
+
+Using new keyword
+int[] num=new int[5];
+
+Methods:
+Array.length-- is a property, used to size  of the Array
+Arrays.sort()-- to sort the data in Ascending order
+Arrays.equal()-- to compare the both Arrays are equal
+60-5
+50-4
+40-3
+30-2
+20-1
+10-0
+
+
+
+Find Second largest number in Array:
+int[] num={1,3,4,6,7,8,9,2,0};
+output=8
+
+Print duplicate
+int[] num={10,20,0,40,50,60,10,20,40};
+output=10,20,40
+
+
+
+
+
+
+
+
+
+
