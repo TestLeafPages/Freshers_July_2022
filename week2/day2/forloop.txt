@@ -1,0 +1,49 @@
+Operators:
+Unary
+Binary
+Tertiary
+Unary---- single operands and single operator
+Binary ---Two operands and one operator
+Tertiary-- Three operands and two operator
+
+a+
+int a=10;
+int b=20;
+int c=a+b;
+
+here a.b are operands, + operator
+
+Arithmatic operators:
++,-,/,*,%
+
+4/2=2---
+
+4%2=0
+
+Logial operator;
+and ---&
+or---||
+not-- !
+
+for loop:
+for(Initialization; condition;Incrtement/Decrement){
+-------------------block of code
+}
+
+1.Initialization
+2.Condition
+3.excution
+4.Increment/Decrement
+
+Employee
+
+
+
+
+
+
+
+
+
+
+
