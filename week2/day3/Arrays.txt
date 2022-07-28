@@ -106,6 +106,21 @@ output=10,20,40
 
 
 
+String:
+  1.The Sequence of character is called String
+  2.String is  non-primitive data type i.e class
+  3.Once we declare the string we can't modified.
+  4.String is immutable
+  5.String is 64 bit memory
+  
+
+How do declare String:
+String liltteral
+ String str="TestLeaf";
+
+
+Using New Keyword
+String name=new String("TestLeaf");
 
 
 
