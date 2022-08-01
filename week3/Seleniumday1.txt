@@ -1,0 +1,49 @@
+
+
+
+
+Selenium:
+Selenium can automate only browser application
+
+Selenium Internal Architecture:
+
+Selenium java library---->RestAPI--->ChromeDriver
+  (Java binding)                                   
+                                     --->Chrome Browser
+
+
+HTML---HyperText Markup Language
+
+Dom open:
+1.Inspects
+2.Press F12
+3.ctrl+shift+i
+4.moretools--->developer tools
+
+
+tagname[pink colour]----mandatory
+Attribute-- [purble colour] 
+           ---Attribute value[blue colour]
+text --- [black colour]
+
+tag:
+input -----input/button/click
+button----click button
+table   -- table 
+tr     -- table row
+td    --- table data
+
+Locators:
+1. id----use: when unique  don't use:if id having                      number
+2. name  use: unique don't use: multiple matches
+3.class    dont use: if it has white space
+4.linkText  --<a>
+5.partialLinkText
+6.tagName
+7.CssSelector
+8.xpath
+
+
+
+
+
