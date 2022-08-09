@@ -1,0 +1,77 @@
+
+
+driver.findElement()
+driver.findElements()
+
+Xpath -- XML path
+Absolute Xpath
+start with /
+ starting from rootnode
+/html/body/div[2]/div[2]/div/form/p/input
+
+Relative Xpath
+Start with //
+Starting from current node
+
+Attribute based xpath
+syntax:
+//tagName[@Attribute='AttributeValue']
+//input[@id='username']
+
+Attribute using Contains
+//tagName[contains(@Attribute,'PartialAttributeValue')]
+//div[contains(@class,'x-grid3-col-partyId')]
+
+Text based Xpath
+//tagName[text()='textvalue']
+//button[text()='Find Leads']
+
+
+Text using Contains
+//tagName[contains(text(),'Partialtext')]
+//a[contains(text(),'CRM/SFA')]
+
+Collections based xpath
+(//tagName[@Attribute='AttributeValue'])[indexvalue]
+(//input[@name='companyName'])[2]
+
+
+Axes XPath
+
+parent to child
+Parent Xpath/ Child Xpath or tagname
+//p[@class='top']/input
+
+child to parent
+child xpath/parent:: tagname of the parent tag
+//input[@id='password']/parent::p
+
+or
+//input[@Id='password']/..
+
+GrandParent to grandChild Xpath:
+GrandParent xpath // grandchild Xpath
+
+//form[@id='login']//label[text()='Username']
+
+
+Grandchild Xpath//GrandParent xpath
+grandchildxpath/ancestor::tag name of grandparent
+//label[text()='Username']/ancestor::form
+or
+//label[text()='Username']/../..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
