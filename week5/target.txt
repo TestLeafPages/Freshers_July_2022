@@ -1,0 +1,53 @@
+Target Locators:
+TargetLocators----> Interface
+RemoteTargetLocators----> Class
+
+1.Alert
+2.Frame
+3.Windows
+
+Alert:
+Alert is a small message box which display on screen notifications to give the user some kind of information or ask permission to allow webpage
+
+Alert ---> build by javaScript
+driver.switchTo()
+switchTo()---- return type TargetLocators
+
+Types of Alert:
+1.Model Dialogue
+2.Non-Model Dialogue
+
+1.Model Dialogue:
+1.SimpleAlert
+2.Confirmation Alert
+3.Prompt Alert
+
+Alert----> Interface
+RemoteAlert----->class
+method:
+accept()-----> to accept the alert
+dismiss()---- to cancel the alert
+getText()---- to retrieve the text in alert
+sendKeys()---- to pass the values in alert
+
+Exceptions:
+UnhandledAlertException:
+NoAlertPresentException:
+
+
+getWindowHandle()-- current Active window
+getWindowHandles()--- opened new all windows
+
+
+Set Implementation classes:
+TreeSet---Ascii Order
+HashSet--- Random Order
+LinkedHashSet----Insertion order
+
+
+
+
+
+
+
+
