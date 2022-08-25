@@ -1,0 +1,44 @@
+Constructor:
+Constructor is a  special kind of function (or)
+
+Constructor is a block of code that initialize the newly created
+Object.
+
+{
+----  block of code
+}
+Properties:
+1.Constructor name should be same  class name
+2.Constructorshould not have any return type
+3.Cannot be abstract,static,final
+Types of COnstructor:
+1.Default Constructor
+2.Parameterized Constructor
+
+
+
+
+
+final:
+ Final is a keyword
+ class
+ method
+ variable
+
+
+Scanner;
+Scanner is a class 
+
+nextLine()   return string values
+nextint()     return int values
+nextFloat()   return float values
+nextBoolean     return true or false
+nextdouble()    return double value
+
+
+
+
+
+
+
+

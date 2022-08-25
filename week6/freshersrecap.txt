@@ -1,0 +1,71 @@
+          Selenium
+   Latest stable version 4.4.0
+SeleniumComponents:
+1.Selenium IDE
+2.Selenium Grid
+3.Selenium WebDriver
+
+Locators
+1.id
+2.name
+3.className
+4.linkText
+5.partialLinkText
+6.tagName
+7.cssSelector
+8.xPath
+
+Xpath:
+Absolute Xpath
+Starting from root node with single /
+/html/div/div[2]/form/p/input
+Relative Xpath
+starting from current node with //
+1.Attributebased xpath/ contains
+//tagname[@attribute='attributevalue']
+2.text based xpath / contains
+//tagname[text()='textvalue']
+3.collections based xpath
+
+ElderSibling to Younger sibling  xpath
+//label[text()='Username']/following-sibling::input
+
+Younger sibling to ElderSibling xpath
+//input[@id='username']/preceding-sibling::label
+
+Eldercousins to Youngercousins  xpath
+(//label[text()='Username']/following::input)[2]
+
+Youngercousins to  Eldercousins  xpath
+//input[@class='decorativeSubmit']/preceding::input
+
+
+
+Target Locators:
+
+Alert
+Frame
+Windows
+
+driver.switchTo().frame(int Index);
+driver.switchTo().frame(String nameorId);
+driver.switchTo().frame(WebElement element);
+
+
+
+
+
+driver.getWindowHandle();       String
+driver.getWindowHandles();    Set<String>
+
+WebTable
+
+
+
+
+
+
+
+
+
+

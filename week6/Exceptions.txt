@@ -1,0 +1,32 @@
+Exception Handling:
+
+What is an Exception?
+ Exception is an Abnormal condition which will interupt the normal flow of the excution
+
+Exception Handle:
+ to enable the normal flow of excution
+
+Types of Exception:
+
+CheckedException ---  CompileTimeException
+
+UnCheckedException--- RunTimeExceptions
+All selenium Exceptions are RuntimeExceptions
+
+NoSuchElementException
+StaleElementReferenceException
+ArrayIndexOutBoundsException
+ArithmeticException
+UnhandledAlertException
+NoAlertPresentException
+NoSuchFrameException
+NoSuchWindowException
+InvalidSelectorException
+ElementClickInterceptedException
+ElementNotInteruptedException
+JavaScriptException
+
+
+
+
+
